@@ -1,4 +1,4 @@
-package com.email.writer.service;
+package com.email.writer.config;
 
 
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
@@ -13,13 +13,13 @@ import org.springframework.context.annotation.Configuration;
 public class OpenAPIConfig {
 
     @Value("${api.title}")
-    private String title;
+    private static String title;
 
     @Value("${api.description}")
-    private String description;
+    private static String description;
 
     @Value("${api.version}")
-    private String version;
+    private static String version;
 
     @Bean
     public OpenAPI customOpenAPI() {

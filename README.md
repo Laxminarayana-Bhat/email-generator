@@ -3,7 +3,7 @@
 **Reply Flow AI** is an AI-powered email reply generator using Spring Boot (Java) for backend, React with Vite for frontend, and Gemini AI API for AI integration.
 
 To get started, clone the repo:  
-`git clone [https://github.com/your-username/reply-flow-ai.git](https://github.com/Laxminarayana-Bhat/email-generator.git)`  
+`git clone https://github.com/Laxminarayana-Bhat/email-generator.git`  
 `cd reply-flow-ai`
 
 Install and run the backend (email-writer-backend):  
